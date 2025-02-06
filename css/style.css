@@ -1,7 +1,7 @@
 body {
   font-family: "Roboto", sans-serif;
   background-color: #fff;
-  color: #434445;
+  color: #434455;
 }
 ul,
 ol {
@@ -10,15 +10,16 @@ ol {
 a {
   text-decoration: none;
 }
-.address {
-  font-style: normal;
-}
 
 /* Header */
+.address-header {
+  font-style: normal;
+}
 .logo {
+  font-family: "Raleway", sans-serif;
   font-weight: 700;
   font-size: 18px;
-  line-height: 1.16;
+  line-height: 1.17;
   letter-spacing: 0.03em;
   text-transform: uppercase;
   color: #4d5ae5;
@@ -57,7 +58,7 @@ a {
 .business {
   background-color: #2e2f42;
 }
-.business-h1 {
+.business-h-one {
   font-weight: 700;
   font-size: 56px;
   line-height: 1.07;
@@ -71,14 +72,14 @@ a {
   line-height: 1.5;
   letter-spacing: 0.04em;
   color: #fff;
-  background: #4d5ae5;
+  background-color: #4d5ae5;
   cursor: pointer;
 }
 .button-bsns:hover,
 .button-bsns:focus {
   background: #404bbf;
 }
-.title-h2 {
+.title-h-two {
   font-weight: 700;
   font-size: 36px;
   line-height: 1.11;
@@ -86,7 +87,7 @@ a {
   text-align: center;
   color: #2e2f42;
 }
-.title-h3 {
+.title-h-three {
   font-weight: 500;
   font-size: 20px;
   line-height: 1.2;
@@ -103,10 +104,10 @@ a {
 .team {
   background: #f4f4fd;
 }
-.team-li {
+.team-list-item {
   background: #fff;
 }
-.title-h2-port {
+.title-htwo-port {
   font-weight: 700;
   font-size: 36px;
   line-height: 1.11;
@@ -121,9 +122,10 @@ a {
   background: #2e2f42;
 }
 .footer-logo {
+  font-family: "Raleway", sans-serif;
   font-weight: 700;
   font-size: 18px;
-  line-height: 1.16;
+  line-height: 1.17;
   letter-spacing: 0.03em;
   text-transform: uppercase;
   color: #4d5ae5;
@@ -131,7 +133,7 @@ a {
 .span-logo-footer {
   font-weight: 700;
   font-size: 18px;
-  line-height: 1.16;
+  line-height: 1.17;
   letter-spacing: 0.03em;
   text-transform: uppercase;
   color: #f4f4fd;
