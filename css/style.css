@@ -12,7 +12,7 @@ a {
 }
 
 /* Header */
-.address-header {
+.contact-info {
   font-style: normal;
 }
 .logo {
@@ -24,34 +24,35 @@ a {
   text-transform: uppercase;
   color: #4d5ae5;
 }
-.logo-text {
+.logo-span {
   color: #2e2f42;
 }
 
-.li-nav-header {
+.nav-link {
   font-weight: 500;
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: #2e2f42;
+  text-decoration: none;
 }
 
-.li-nav-header:focus,
-.li-nav-header:hover {
+.nav-link:focus,
+.nav-link:hover {
   color: #404bbf;
 }
 
-.li-address-header {
-  font-weight: 400;
+.contact-link {
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: #434455;
   font-style: normal;
+  text-decoration: none;
 }
 
-.li-address-header:hover,
-.li-address-header:focus {
+.contact-link:hover,
+.contact-link:focus {
   color: #404bbf;
 }
 /* Main */
